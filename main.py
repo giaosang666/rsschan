@@ -26,7 +26,7 @@ def GetNewRSS(url):
         if not post.link in old:
             #打印文章标题
             print(f.feed.title,post.title)
-            notify.send('<a href="'+post.link+'">'+f.feed.title+' - '+post.title+'</a>\n'+post.published,delhtml(post.description))
+            notify.send('网址：'+post.link+'。\n'+f.feed.title+' - '+post.title+'。\n'+post.published,delhtml(post.description))
             oldrss.writelines([f.feed.title,'  ',post.link,'  ',post.title,'\n'])
 
         oldrss.close()
