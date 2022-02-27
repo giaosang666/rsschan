@@ -66,7 +66,7 @@ push_config = {
     'QMSG_KEY': '',                     # qmsg 酱的 QMSG_KEY
     'QMSG_TYPE': '',                    # qmsg 酱的 QMSG_TYPE
 
-    'QYWX_AM': 'ww8a8648d68b7891f6,NGapOO7wq_4tjy1GB0ibv94yFkvpwsEun3H-dupZvto,jiaotangyaoyao,1000001',# corpid,corpsecret,touser(注:多个成员ID使用|隔开),agentid,消息类型(选填,不填默认文本消息类型) 注意用,号隔开(英文输入法的逗号)，例如：wwcfrs,B-76WERQ,qinglong,1000001,2COat
+    'QYWX_AM': 'ww8a8648d68b7891f6,NGapOO7wq_4tjy1GB0ibv94yFkvpwsEun3H-dupZvto,万爸爸|焦糖瑶瑶,1000001',# corpid,corpsecret,touser(注:多个成员ID使用|隔开),agentid,消息类型(选填,不填默认文本消息类型) 注意用,号隔开(英文输入法的逗号)，例如：wwcfrs,B-76WERQ,qinglong,1000001,2COat
     'QYWX_KEY': '454589e4-1e3d-4e33-9e46-8877e2f729b5',                     # 企业微信机器人
 
     'TG_BOT_TOKEN': '',                 # 必填 tg 机器人的 TG_BOT_TOKEN，例：1407203283:AAG9rt-6RDaaX0HBLZQq0laNOh898iFYaRQ
